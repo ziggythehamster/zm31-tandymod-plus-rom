@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zm31-tandymod-plus-rom-adapter-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -17,8 +18,8 @@ $Comp
 L 74xx:74LS157 U1
 U 1 1 5DA3C72D
 P 2850 3200
-F 0 "U1" H 3250 2400 50  0000 C CNN
-F 1 "74LS157" H 3350 2300 50  0000 C CNN
+F 0 "U1" H 3250 2600 50  0000 C CNN
+F 1 "ZM31 Socket" H 3450 2500 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 2850 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 2850 3200 50  0001 C CNN
 	1    2850 3200
@@ -40,7 +41,7 @@ L Memory_EPROM:27C512 U2
 U 1 1 5DA41534
 P 5700 3350
 F 0 "U2" H 5700 4631 50  0000 C CNN
-F 1 "27C512" H 5700 4540 50  0000 C CNN
+F 1 "ROM Socket" H 5700 4540 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket_LongPads" H 5700 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 5700 3350 50  0001 C CNN
 	1    5700 3350
@@ -241,4 +242,44 @@ Text Label 3950 2250 0    50   ~ 0
 VCC
 Text Label 5150 4450 0    50   ~ 0
 GND
+Text Label 3200 1300 0    50   ~ 0
+~TANDY
+Text Label 3100 4750 0    50   ~ 0
+XA16
+Text Label 3100 4650 0    50   ~ 0
+PG2
+Text Label 3100 4550 0    50   ~ 0
+XA15
+Text Label 3100 4450 0    50   ~ 0
+GND
+Text Label 3100 4350 0    50   ~ 0
+SEL
+Text Label 3100 4250 0    50   ~ 0
+~ENABLE
+Text Label 3100 4150 0    50   ~ 0
+PG1
+Text Label 4400 2850 0    50   ~ 0
+PG1
+Text Label 4400 2750 0    50   ~ 0
+XA15
+Text Label 4400 2650 0    50   ~ 0
+PG2
+Text Label 4400 2550 0    50   ~ 0
+XA16
+Text Label 3950 2150 0    50   ~ 0
+XA14
+Text Label 3950 2050 0    50   ~ 0
+PG0
+Text Label 3950 1750 0    50   ~ 0
+OUT14
+Text Label 3950 1850 0    50   ~ 0
+OUT15
+Text Label 3950 1950 0    50   ~ 0
+OUT16
+Text Label 2300 1900 0    50   ~ 0
+VCC
+Text Label 1800 1700 0    50   ~ 0
+GND
+Text Label 4650 3150 0    50   ~ 0
+SEL
 $EndSCHEMATC
